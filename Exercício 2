@@ -1,0 +1,15 @@
+def soma(valor1, valor2, valor3, valor4):
+   return valor1 + valor2 + valor3 + valor4 - valorDefinitivo
+   
+
+
+valor1 = int(input("Digite o primeiro valor"))
+valor2 = int(input("Digite o segundo valor"))
+valor3 = int(input("Digite o terceiro valor"))
+valor4 = int(input("Digite o quarto valor"))
+
+valorDefinitivo = 10
+
+somaValores = soma(valor1, valor2, valor3, valor4)
+
+print("O resultado da conta será:", somaValores)
