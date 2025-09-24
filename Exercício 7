@@ -1,0 +1,9 @@
+def celsiusParaFahrenheit(celsius):
+    return (9 * celsius + 160) / 5
+
+celsius = float(input("Digite a temperatura em graus Celsius: "))
+
+
+fahrenheit = celsiusParaFahrenheit(celsius)
+
+print(f"{celsius}°C equivalem a {fahrenheit:.1f}°F")
