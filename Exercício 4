@@ -1,0 +1,16 @@
+def multiplicacao(numero, multiplicador):
+    return numero * multiplicador
+
+numero = int(input("Digite um número: "))
+
+print(f"Tabuada do {numero}:")
+print(f"{numero} x 1 = {multiplicar(numero, 1)}")
+print(f"{numero} x 2 = {multiplicar(numero, 2)}")
+print(f"{numero} x 3 = {multiplicar(numero, 3)}")
+print(f"{numero} x 4 = {multiplicar(numero, 4)}")
+print(f"{numero} x 5 = {multiplicar(numero, 5)}")
+print(f"{numero} x 6 = {multiplicar(numero, 6)}")
+print(f"{numero} x 7 = {multiplicar(numero, 7)}")
+print(f"{numero} x 8 = {multiplicar(numero, 8)}")
+print(f"{numero} x 9 = {multiplicar(numero, 9)}")
+print(f"{numero} x 10 = {multiplicar(numero, 10)}")
