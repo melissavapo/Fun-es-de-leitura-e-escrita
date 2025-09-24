@@ -1,5 +1,5 @@
 def soma(valor1, valor2, valor3, valor4):
-   return valor1 + valor2 + valor3 + valor4 - valorDefinitivo
+   return (valor1 + valor2 + valor3 + valor4) - valorDefinitivo
    
 
 
